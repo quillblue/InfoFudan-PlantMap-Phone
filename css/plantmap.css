@@ -11,6 +11,10 @@ body{
 	background-color: #fff6ed;
 }
 
+.clear{
+	clear:both;
+}
+
 .layout{
 	line-height: 150%;
 	width: 320px;
@@ -73,7 +77,7 @@ body{
 }
 
 	.loc_img{
-		margin:2 10px;
+		margin:1 10px;
 	}
 
 	.loc_text{
@@ -88,7 +92,7 @@ body{
 
 	.detail_loc_title{
 		float: left;
-		width: 280px;
+		width: 285px;
 		padding-top: 5px;
 		margin-left: 10px;
 		line-height: 200%;

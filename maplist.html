@@ -4,11 +4,12 @@
 	<title>复旦花鸟地图</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/plantmap.css">
-	<script type="text/javascript" src="js/jquery-1.7.2-min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="js/database.js"></script>
+	<script type="text/javascript" src="js/plantmap.js"></script>
 </head>
 <body>
-	<div id="main" class="layout" style="display:none">
+	<div id="main" class="layout" >
 		<div class="header">
 			<div class="header_left">
 				<img src="images/bird.png" width="115px">
@@ -17,7 +18,7 @@
 				<div class="title">
 					<img src="images/title.png">
 				</div>
-				<div class="menu">
+				<div id="menu">
 					<div class="btnnav btnnav_now">
 						<div class="nav_icon">
 							<img src="images/flower_icon.png">
@@ -34,20 +35,15 @@
 				</div>
 			</div>
 		</div>
-		<div style="clear:both"></div>
+		<div class="clear"></div>
 		<div class="content">
-			<div class="location">
-				<div class="loc_img">
-					<img src="images/icon/1haolou.png">
-				</div>
-				<div class="loc_text">
-					1号楼
-				</div>
-			</div>
+			<div id="plant_panel" class="location_panel"></div>
+			<div id="bird_panel" class="location_panel"></div>
+			<div class="clear"></div>
 		</div>
-		<div style="clear:both"></div>
+		
 	</div>
-	<div id="detail" class="layout">
+	<div id="detail" class="layout" style="display:none">
 		<div class="detail_header">
 			<div class="detail_loc_title"><span>1号楼</span>5号楼对面</div>
 			<div class="detail_loc_exit">X</div>
