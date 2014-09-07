@@ -4,10 +4,78 @@
 	<title>复旦花鸟地图</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/plantmap.css">
+	<script type="text/javascript" src="js/jquery-1.7.2-min.js"></script>
+	<script type="text/javascript" src="js/database.js"></script>
 </head>
 <body>
-	<div class="header">
+	<div id="main" class="layout" style="display:none">
+		<div class="header">
+			<div class="header_left">
+				<img src="images/bird.png" width="115px">
+			</div>
+			<div class="header_right">
+				<div class="title">
+					<img src="images/title.png">
+				</div>
+				<div class="menu">
+					<div class="btnnav btnnav_now">
+						<div class="nav_icon">
+							<img src="images/flower_icon.png">
+						</div>
+						<div class="nav_text">本部赏花</div>
 
+					</div>
+					<div class="btnnav">
+						<div class="nav_icon">
+							<img src="images/bird_icon.png">
+						</div>
+						<div class="nav_text">江湾观鸟</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="clear:both"></div>
+		<div class="content">
+			<div class="location">
+				<div class="loc_img">
+					<img src="images/icon/1haolou.png">
+				</div>
+				<div class="loc_text">
+					1号楼
+				</div>
+			</div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+	<div id="detail" class="layout">
+		<div class="detail_header">
+			<div class="detail_loc_title"><span>1号楼</span>5号楼对面</div>
+			<div class="detail_loc_exit">X</div>
+		</div>
+		<div class="detail_content">
+			<div class="li">
+				<div class="li_title">
+					MAY | 碧桃
+				</div>
+				<div class="li_descrption">
+					Describe the city you live in
+				</div>
+				<div class="li_img">
+					<img src="images/bird/hongxielanweiqu.jpg" width="300px">
+				</div>
+			</div>
+			<div class="li">
+				<div class="li_title">
+					MAY | 碧桃
+				</div>
+				<div class="li_descrption">
+					Describe the city you live in
+				</div>
+				<div class="li_img">
+					<img src="images/bird/hongxielanweiqu.jpg" width="300px">
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
