@@ -19,7 +19,11 @@ $(document).ready(function(){
 		var i = $(this).index();
 		console.log(i);
 		loadDetail(i);
-	})
+	});
+
+	$("#ad_close").click(function(){
+		$("#ad").hide();
+	});
 })
 
 function loadContest(){

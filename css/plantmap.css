@@ -5,6 +5,7 @@ html{
 
 a{
 	text-decoration: none;
+	color:#fff;
 }
 
 body{
@@ -20,6 +21,7 @@ body{
 	width: 320px;
 	font-size: 12px;
 	color: #fff;
+	min-height: 350px;
 }
 
 .header{
@@ -132,3 +134,42 @@ body{
 	.li_img{
 		padding-bottom: 10px;
 	}
+
+#footer{
+	text-align: center;
+	margin-top: 20px;
+	width: 320px;
+}
+
+.morereport{
+	margin:0 auto;
+	padding:8px 20px;
+	background-color: #bd3018;
+	font-size: 18px;
+}
+
+.copyright{
+	border-top: 1px solid #ccc;
+	margin-top: 30px;
+	padding-top: 10px;
+	line-height: 120%;
+	color: #999;
+}
+
+#ad{
+	height: 65px;
+	background-image: url(../images/ad.png);
+}
+
+#ad_hot_area{
+	float: left;
+	width: 300px;
+	height: 65px;
+}
+
+#ad_close{
+	font-size: 10px;
+	line-height: 120%;
+	padding: 0 5px;
+	color: #fff;
+}
