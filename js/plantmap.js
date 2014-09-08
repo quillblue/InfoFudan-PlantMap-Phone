@@ -37,6 +37,7 @@ function loadContest(){
 		$("#bird_panel").append(html)
 	}
 	$("#bird_panel").append('<div class="clear"></div>');
+	$("#bird_panel").hide();
 }
 
 function loadDetail(id){
@@ -59,9 +60,11 @@ function loadDetail(id){
 	}
 	$("#detail").html(html);
 	$("#main").hide();
+	$("#footer").hide();
 	$("#detail").show();
 	$(".detail_loc_exit").click(function(){
 		$("#detail").hide();
 		$("#main").show();
+		$("#footer").show();
 	});
 }
