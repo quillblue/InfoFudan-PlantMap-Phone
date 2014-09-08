@@ -143,9 +143,9 @@ body{
 
 .morereport{
 	margin:0 auto;
-	padding:8px 20px;
+	padding:8px 15px;
 	background-color: #bd3018;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .copyright{
@@ -158,7 +158,7 @@ body{
 
 #ad{
 	height: 65px;
-	background-image: url(../images/ad.png);
+	background: url(../images/ad.png) no-repeat;
 }
 
 #ad_hot_area{
@@ -168,8 +168,8 @@ body{
 }
 
 #ad_close{
-	font-size: 10px;
-	line-height: 120%;
-	padding: 0 5px;
+	font-size: 14x;
+	line-height: 100%;
+	padding: 0 6px;
 	color: #fff;
 }
